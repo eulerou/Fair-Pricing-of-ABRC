@@ -14,7 +14,7 @@ Volatility surfaces of fair prices and expected value given Worst Case Scenario 
 
 # Assumption
 
-Throughout the project, it is assumed that the daily lowest prices of underlying stocks follow a correlated Geometric Brownian Motions with parameters estimated by 3-year historical data. Coupon payments are quarterly compounded and priced are discounted continuously by risk-free rate under time convention actual/360.
+Throughout the project, it is assumed that the daily lowest prices of underlying stocks follow a correlated Geometric Brownian Motions with parameters estimated by 3-year historical data. Coupon payments are quarterly compounded and priced are discounted continuously by risk-free rate under time convention actual/360. Parameters of CIR model are estimated by OLS using 3-year historical data of U.S. 1Y TSY. 
 
 # Product Description
 
