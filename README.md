@@ -8,7 +8,7 @@ Fixed risk-free interest and stochastic interest rate (CIR) are incorporated sep
 
 Stress testing is applied to calculate the fair prices and expected values of the product under Worst Case Scenario under various stress levels of interest rate volatility and stock volatility.
 
-A vectorized stress testing function is currently under development, which aims to calculate the fair price, probability of each redemption scenario and expected value given Worst Case Scenario under flexible inputs including parameters of CIR, redemption and coupon payment dates, stress levels of intereste rate volatility (sigma in CIR) and stress levels of underlying stocks volatility, and number of simulations. 
+A vectorized stress testing function is currently under development, which aims to calculate the fair price, probability of each redemption scenario and expected value given Worst Case Scenario under flexible inputs including parameters of CIR, redemption and coupon payment dates, stress levels of interest rate volatility and stress levels of underlying stocks volatility, and number of simulations. 
 
 Volatility surfaces of fair prices and expected value given Worst Case Scenario are visualized in the end of Project_Tim file.
 
